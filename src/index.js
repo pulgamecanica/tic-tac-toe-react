@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'animate.css';
 import './index.css';
 
 function Square(props) {
@@ -96,7 +97,7 @@ class Game extends React.Component {
         'Go to move #' + move :
         'Go to game start';
       return (
-        <li key={move}>
+        <li key={move} className="animate__animated animate__bounceInRight">
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
       );
@@ -109,7 +110,7 @@ class Game extends React.Component {
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
 		return (
-			<div className="game">
+			<div className="game animate__animated animate__bounce">
 				<div className="game-board">
 					<div className="status">{status}</div>
 					<Board
