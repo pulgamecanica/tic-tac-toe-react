@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+# Tic Tac Toe Game
+
+This application let's you play the famous game of tic tac toe
+
+It is based on the tutorial available on the official react website
+
+***
+
+## How to play?
+
+Choose any sqare and try to score the same figure 3 in a row, vertical, horizontal or diagonal.
+<br>
+Players alternate each turn
+<br>
+X starts playing
+
+<img width="659" alt="Screenshot 2023-04-28 at 22 02 02" src="https://user-images.githubusercontent.com/28810331/235253633-82078b11-e004-405f-b56c-9468d12699e6.png">
+
+You can adjust the game size with the blue range button on the bottom
+
+There is a history displayed on the right size of the playing area.
+
+***
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -44,27 +66,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
