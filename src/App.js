@@ -1,3 +1,4 @@
+import 'animate.css';
 import { useState } from 'react';
 
 function Square({ value, onSquareClick }) {
@@ -82,14 +83,14 @@ export default function Game() {
       description = 'Go to game start';
     }
     return (
-      <li key={move}>
+      <li key={move} className="animate__animated animate__bounceInRight">
         <button onClick={() => jumpTo(move)}>{description}</button>
       </li>
     );
   });
 
   return (
-    <div className="game">
+    <div className="game game animate__animated animate__bounce">
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
         <input
