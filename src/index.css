@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+:root {
+  --main-bg-color: rgba(42, 42, 42, 0.2);
+  --game-size: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	box-sizing: border-box;
+	font-family: 'Instrument Serif', serif;
+}
+
+body {
+	background-color: var(--main-bg-color);
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.game {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.status {
+	padding: 0.5rem;
+	font-size: 20px;
+}
+
+.board-row {
+	display: flex;
+	height: var(--game-size);
+}
+
+.square {
+	height: var(--game-size);
+	width: var(--game-size);
+	margin: 0;
+	padding: 0;
+	border-radius: 0%;
+	border: none;
+	outline: 1px solid gray;
+	font-size: calc(var(--game-size) / 2);
 }
