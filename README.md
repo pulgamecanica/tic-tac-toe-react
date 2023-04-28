@@ -8,7 +8,7 @@ It is based on the tutorial available on the official react website
 
 ## How to play?
 
-Choose any sqare and try to score the same figure 3 in a row, vertical, horizontal or diagonal.
+Choose any square and try to score the same figure 3 in a row, vertical, horizontal or diagonal.
 <br>
 Players alternate each turn
 <br>
